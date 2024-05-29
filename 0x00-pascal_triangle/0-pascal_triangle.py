@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-""" This function is used to generate the output of the pascal triangle"""
+"""This function is used to generate the output of the pascal triangle."""
 
 
 def pascal_triangle(n):
-    """ Generates the pascal triangle from the given number of points """
+    """Generate the pascal triangle from the given number of points."""
     if n == 0:
         return []
     if n == 1:
